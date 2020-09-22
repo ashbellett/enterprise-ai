@@ -12,7 +12,7 @@ Test application.
 ```bash
 python run_tests.py
 ```
-Get result from model (default is total revenue for next 30 days).
+Predict future revenue (default is total revenue for next 30 days; add `country` parameter to get revenue for specific country).
 ```bash
 curl --request POST 'http://127.0.0.1/predict?date=2018-11-20'
 ```
